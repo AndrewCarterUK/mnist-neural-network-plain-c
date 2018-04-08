@@ -2,7 +2,7 @@
 
 This source code seeks to replicate the [MNIST For ML Beginners](https://www.tensorflow.org/versions/r1.1/get_started/mnist/beginners) tutorial from the Tensorflow website using plain C code.
 
-The task is to recognise digis, such as the ones below, as accurately as possible.
+The task is to recognise digits, such as the ones below, as accurately as possible.
 
 ![MNIST digits](https://www.tensorflow.org/versions/r1.1/images/MNIST.png)
 
