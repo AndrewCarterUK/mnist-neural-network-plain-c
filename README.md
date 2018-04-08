@@ -21,7 +21,7 @@ make
 
 ## Description
 
-The neural network implemented has one output layers and no hidden layers. Softmax activation is used, and this ensures that the output activations form a probability vector corresponding to each label. The cross entropy is used as a loss function.
+The neural network implemented has one output layer and no hidden layers. Softmax activation is used, and this ensures that the output activations form a probability vector corresponding to each label. The cross entropy is used as a loss function.
 
 The algorithm reaches an accuracy of around 92% over 1000 steps.
 
