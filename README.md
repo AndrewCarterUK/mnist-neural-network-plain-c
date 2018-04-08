@@ -6,6 +6,8 @@ The task is to recognise digits, such as the ones below, as accurately as possib
 
 ![MNIST digits](https://www.tensorflow.org/versions/r1.1/images/MNIST.png)
 
+By [AndrewCarterUK ![(Twitter)](http://i.imgur.com/wWzX9uB.png)](https://twitter.com/AndrewCarterUK)
+
 ## Contents
 
 - [mnist.c](mnist.c): Glue code that runs the algorithm steps and reports algorithm accuracy
