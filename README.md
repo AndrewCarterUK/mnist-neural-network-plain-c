@@ -1,12 +1,16 @@
 # MNIST Neural Network in C
 
-This source code seeks to replicate the [MNIST For ML Beginners](https://www.tensorflow.org/versions/r1.1/get_started/mnist/beginners) tutorial from the Tensorflow website using straight forward C code.
+This source code seeks to replicate the [MNIST For ML Beginners](https://www.tensorflow.org/versions/r1.1/get_started/mnist/beginners) tutorial from the Tensorflow website using plain C code.
+
+The task is to recognise digis, such as the ones below, as accurately as possible.
+
+![MNIST digits](https://www.tensorflow.org/versions/r1.1/images/MNIST.png)
 
 ## Contents
 
-- `mnist.c`: Glue code that runs the algorithm steps and reports algorithm accuracy
-- `mnist_file.c`: Retrieves images and labels from the MNIST dataset
-- `neural_network.c`: Implements training and prediction routines for a simple neural network
+- [mnist.c](mnist.c): Glue code that runs the algorithm steps and reports algorithm accuracy
+- [mnist_file.c](mnist_file.c): Retrieves images and labels from the MNIST dataset
+- [neural_network.c](neural_network.c): Implements training and prediction routines for a simple neural network
 
 ## Usage
 
@@ -37,3 +41,5 @@ Step 0009	Average Loss: 1.45	Accuracy: 0.516
 Step 0010	Average Loss: 1.78	Accuracy: 0.559
 ...
 ```
+
+![training evolution](https://res.cloudinary.com/andrewcarteruk/image/upload/v1523189356/training-evolution_hhbsfb.png)
