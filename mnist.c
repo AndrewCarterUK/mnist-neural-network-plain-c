@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
         // Calculate the accuracy using the whole test dataset
         accuracy = calculate_accuracy(test_dataset, &network);
 
-        printf("Step %04d\tLoss: %f\tAccuracy: %f\n", i, loss, accuracy);
+        printf("Step %04d\tAverage Loss: %.2f\tAccuracy: %.3f\n", i, loss / batch.size, accuracy);
     }
 
     // Cleanup
