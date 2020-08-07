@@ -1,10 +1,10 @@
 # MNIST Neural Network in C
 
-This source code seeks to replicate the [MNIST For ML Beginners](https://www.tensorflow.org/versions/r1.1/get_started/mnist/beginners) tutorial from the Tensorflow website using plain C code.
+This source code seeks to replicate the (now removed) [MNIST For ML Beginners](https://web.archive.org/web/20180801165522/https://www.tensorflow.org/versions/r1.1/get_started/mnist/beginners) tutorial from the Tensorflow website using plain C code.
 
 The task is to recognise digits, such as the ones below, as accurately as possible.
 
-![MNIST digits](https://www.tensorflow.org/versions/r1.1/images/MNIST.png)
+![MNIST digits](https://web.archive.org/web/20180801165522im_/https://www.tensorflow.org/versions/r1.1/images/MNIST.png)
 
 By [AndrewCarterUK ![(Twitter)](http://i.imgur.com/wWzX9uB.png)](https://twitter.com/AndrewCarterUK)
 
