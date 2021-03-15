@@ -128,7 +128,7 @@ float neural_network_training_step(mnist_dataset_t * dataset, neural_network_t *
     for (i = 0; i < MNIST_LABELS; i++) {
         network->b[i] -= learning_rate * gradient.b_grad[i] / ((float) dataset->size);
 
-        for (j = 0; j < MNIST_IMAGE_SIZE + 1; j++) {
+        for (j = 0; j < MNIST_IMAGE_SIZE; j++) {
             network->W[i][j] -= learning_rate * gradient.W_grad[i][j] / ((float) dataset->size);
         }
     }
